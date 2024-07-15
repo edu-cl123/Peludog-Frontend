@@ -1,0 +1,7 @@
+{
+  "name": "Peludog",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
