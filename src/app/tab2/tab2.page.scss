@@ -1,3 +1,8 @@
+.flecha{
+  color: black;
+  height: 50px;
+  width: 50px;
+}
 .btn {
   background-color: #ca9865;
   width: 150px;
@@ -5,12 +10,54 @@
   border-radius: 20px;
   padding: 10px 20px;
   font-size: 16px;
-  cursor: pointer; 
+  cursor: pointer;
   display: inline-block;
-  margin-top: 25px;
+  margin-top: 15px;
 }
-.Logo{
-    border-radius: 200px;
-    
+.Logo {
+  border-radius: 200px;
+}
+.body {
+  --background: #d6d6d6;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #d6d6d6;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  color: black;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background: #f4e5ac;
+  color: black;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  border-color: #66afe9;
+  box-shadow: 0 0 5px #66afe9;
+}
