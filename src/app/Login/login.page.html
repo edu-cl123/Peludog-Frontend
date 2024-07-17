@@ -1,0 +1,26 @@
+<ion-content [fullscreen]="true" class="login-content">
+  <div class="login-header">
+    <img src="assets/PeluDog.jpeg" class="login-image">
+  </div>
+
+  <div class="login-form">
+    <div class="form-group">
+      <label for="emailInput" class="Email">Email</label>
+      <input type="text" [(ngModel)]="email" class="form-control" id="emailInput" placeholder="Email">
+    </div>
+
+    <div class="form-group">
+      <label for="passwordInput">Contraseña</label>
+      <input type="password" [(ngModel)]="password" class="form-control" id="passwordInput" placeholder="Contraseña">
+    </div>
+
+    <ion-row>
+      <ion-col>
+        <button type="button" class="btn" (click)="logear()">Iniciar Sesión</button>
+      </ion-col>
+      <ion-col>
+        <button type="button" class="btn" (click)="Registro()">Registrarse</button>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-content>

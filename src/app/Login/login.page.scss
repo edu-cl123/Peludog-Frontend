@@ -1,0 +1,58 @@
+.login-content {
+    --background: #d6d6d6;
+    background-color: var(--background);
+    justify-content: center; // Centra los elementos verticalmente
+    align-items: center; // Centra los elementos horizontalmente
+  
+    .login-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40vh;
+      background-color: #d6d6d6;
+    }
+  
+    .login-image {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid #3880ff;
+      background-color: #d6d6d6;
+    }
+  
+    .login-form {
+      padding: 20px;
+      height: 100%;
+  
+      .form-group {
+        margin-bottom: 20px; // Espacio entre los campos de formulario
+  
+        label {
+          display: block; // Asegura que el label esté por encima del input
+          margin-bottom: 5px; // Espacio entre el label y el input
+        }
+  
+        input.form-control {
+          background: #f4e5ac; // Fondo de los input
+          border-radius: 25px; // Bordes redondeados para los input
+          padding: 10px; // Padding dentro de los input
+          height: 100%;
+          border: none;
+          width: 100%;
+        }
+      }
+    }
+  
+    ion-row {
+      margin-top: 20px;
+    }
+  
+    .btn {
+      width: 100%;
+      height: 40px;
+      border-radius: 20px; // Hace que los botones tengan bordes curvos
+      background: #ca9865; // Color de fondo del botón
+      color: black; // Color del texto del botón
+    }
+  }
