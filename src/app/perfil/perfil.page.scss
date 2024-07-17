@@ -1,0 +1,67 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    --background: #d6d6d6;
+  }
+  
+  .tilte-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: #d6d6d6;
+  }
+  
+  .datos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px; 
+  
+  }
+  
+  .datos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+    color: black;
+    
+  }
+label{
+    background: #f4e5ac;
+    border-radius: 25px;
+    padding: 10px;
+    height: 100%;
+    border: none;
+    width: 100%;
+    margin-left: 10px;
+}
+  
+  .datos label:first-child {
+    font-weight: bold;
+  }
+.Logo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #3880ff;
+    background-color: #d6d6d6;
+}
+.titulo{
+    color: black;
+    text-align: center;
+}
+.btn {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px; // Hace que los botones tengan bordes curvos
+    background: #ca9865; // Color de fondo del botón
+    color: black; // Color del texto del botón
+    margin-top: 10px;
+  }
